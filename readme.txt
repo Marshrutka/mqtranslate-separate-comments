@@ -1,12 +1,11 @@
 === qTranslate Separate Comments ===
-Donate Link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=S8FGREYJJA4FE
-Contributors: nikolov.tmw
-Tags: qTranslate, comments, comment languages
+Donate Link: http://senzafissadimora.org/
+Contributors: Zhenya, Marshrutka
+Tags: mqTranslate, separate comments, comment languages
 Requires at least: 3.3.2
-Tested up to: 3.9
+Tested up to: 4.1-beta2-30771
 Stable tag: 1.2.2
 License: GPLv2 or later
-License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 Automatically separate the user comments by the language they viewed the article in.
 
@@ -22,22 +21,22 @@ The plugin is using comment-meta to specify the language for each comment, so no
 
 It also should work out-of-the-box for all themes that use the comments_template() function to render their comments. 
 
-The plugin also fixes an issue of qTranslate. The issue consists in the fact that whenever a user posts a comment(while viewing a post in a language different than the default one), he is redirected back to the post but in the default language and not the language he was reading the post before posting the comment.
+The plugin also fixes an issue of mqTranslate. The issue consists in the fact that whenever a user posts a comment(while viewing a post in a language different than the default one), he is redirected back to the post but in the default language and not the language he was reading the post before posting the comment.
 
 == Installation ==
 
-1. Download the plugin from [here](http://wordpress.org/extend/plugins/qtranslate-separate-comments/ "qTranslate Separate Comments").
+1. Download the plugin from [here](http://wordpress.org/extend/plugins/mqtranslate-separate-comments/ "mqTranslate Separate Comments").
 1. Extract all the files. 
 1. Upload everything (keeping the directory structure) to the `/wp-content/plugins/` directory.
-1. There should be a `/wp-content/plugins/qtranslate-separate-comments` directory now with `qtranslate-separate-comments.php` in it.
+1. There should be a `/wp-content/plugins/mqtranslate-separate-comments` directory now with `mqtranslate-separate-comments.php` in it.
 1. Activate the plugin through the 'Plugins' menu in WordPress.
-1. Go to the Comments section in WordPress Dashboard and set the appropriate language for all of your comments(you can use the "Bulk Set Language" button after selecting some comments and the right language for them).
+1. Go to the Comments section in WordPress Dashboard and set the appropriate language for all of your comments (you can use the "Bulk Set Language" button after selecting some comments and the right language for them).
 
 == Frequently Asked Questions ==
 
 = I installed the plugin and all my comments are no longer displayed =
 
-You have to associate each comment with a specific language. To do this, go to the Comments section in WordPress Dashboard and set the appropriate language for all of your comments(you can use the "Bulk Set Language" button after selecting some comments and the right language for them).
+You have to associate each comment with a specific language. To do this, go to the Comments section in WordPress Dashboard and set the appropriate language for all of your comments (you can use the "Bulk Set Language" button after selecting some comments and the right language for them).
 
 = The plugin doesn't redirect to the proper language and the language is set incorrectly =
 
@@ -54,7 +53,7 @@ In order to properly identify where the comment is coming from, this plugin adds
 == Changelog ==
 
 = 1.2.2 =
-Tested with WordPress 3.9 and everything works fine. Note that the current version of qTranslate(2.5.39) however breaks my test site with a fatal error.
+Tested with WordPress 3.9 and everything works fine. Note that the current version of mqTranslate(2.5.39) however breaks my test site with a fatal error.
 
 = 1.2.1 =
 Changed the tested up to version to 3.5.1. Changed stable tag from trunk to tag number. 
@@ -66,8 +65,8 @@ Changed the passing of the comment language to a much, much more simple way, tha
 Fixed a bug related to proper setting of the language/redirecting back. The code was tested both from a root-level install and a sub-directory install. 
 
 = 1.1 =
-* Fixed the `fix_comments_count()` function(a typo was returning the wrong comments count) - thanks @hyOzd
-* Added support for qTranslate's "Query Mode"
+* Fixed the `fix_comments_count()` function (a typo was returning the wrong comments count) - thanks @hyOzd
+* Added support for mqTranslate's "Query Mode"
 * Fixed a couple of little bugs
 * Updated the FAQ section
 * Added a .pot file
@@ -78,4 +77,4 @@ Fixed a bug related to proper setting of the language/redirecting back. The code
 * Automatic language setting for new comments.
 * Manual setting of a comment's language through the admin.
 * Bulk setting of comment's language from the Edit Comments dashboard section(using AJAX).
-* Fixed qTranslate issue of not returning the commenter to the correct language.
+* Fixed mqTranslate issue of not returning the commenter to the correct language.
