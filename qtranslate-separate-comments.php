@@ -6,7 +6,7 @@ Version: 1.2.3
 Author: Zhenya
 Author URI: http://senzafissadimora.org/
 License: GPLv2 or later
-Tags: mqTranslate, separate comments
+Tags: mqTranslate, separate comments, comment languages
 */
 /*
 	Original qTranslate separate comments source code
