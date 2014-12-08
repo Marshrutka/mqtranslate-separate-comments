@@ -12,7 +12,7 @@ Tags: mqTranslate, separate comments
 	Original qTranslate separate comments source code
 	Copyright 2012 Nikola Nikolov (email : nikolov.tmw@gmail.com)
 
-	mqTranslate-separate-comments
+	mqTranslate separate comments
 	Copyright 2014 Guido Eugenio, Zhenya aka Marshrutka  (email : jenkaitalii@hotmail.com)
 
 This program is free software; you can redistribute it and/or modify
