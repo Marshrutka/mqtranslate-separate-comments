@@ -2,7 +2,7 @@
 Donate Link: http://senzafissadimora.org/
 Contributors: Zhenya, Marshrutka
 Tags: mqTranslate, separate comments, comment languages
-Requires at least: 3.3.2
+Requires at least: 3.9
 Tested up to: 4.1-beta2-30771
 Stable tag: 1.2.2
 License: GPLv2 or later
