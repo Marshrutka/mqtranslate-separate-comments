@@ -1,16 +1,19 @@
 <?php
 /*
-Plugin Name: qTranslate Separate Comments
-Description: This plugin separates the user comments by the language they viewed the article in - this way you avoid duplicate content and comments in other languages than the one the current visitor is using. You can manually change the language of each comment(and you will have to set it in the begining).
+Plugin Name: mqTranslate Separate Comments
+Description: This plugin separates the user comments by the language they viewed the article in - this way you avoid duplicate content and comments in other languages than the one the current visitor is using. You can manually change the language of each comment (and you will have to set it in the begining).
 Version: 1.2.1
-Author: Nikola Nikolov(TheMoonWatch)
-Author URI: http://themoonwatch.com/
+Author: Zhenya
+Author URI: http://senzafissadimora.org/
 License: GPLv2 or later
+Tags: mqTranslate, separate comments
+*/
+/*
+	Original qTranslate separate comments source code
+	Copyright 2012 Nikola Nikolov (email : nikolov.tmw@gmail.com)
 
-==========================================
-Licensing information
-
-Copyright 2012 Nikola Nikolov (email : nikolov.tmw@gmail.com)
+	mqTranslate-separate-comments
+	Copyright 2014 Guido Eugenio, Zhenya aka Marshrutka  (email : jenkaitalii@hotmail.com)
 
 This program is free software; you can redistribute it and/or modify
 it under the terms of the GNU General Public License, version 2, as 
@@ -25,7 +28,6 @@ You should have received a copy of the GNU General Public License
 along with this program; if not, write to the Free Software
 Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 */
-
 
 /**
 * This is the base class of the plugin - most of our important code is contained within it.
@@ -601,8 +603,8 @@ class qTC_Comment_Query extends WP_Comment_Query {
 
 // Required for the "is_plugin_active()" and "is_plugin_active_for_network()" functions
 include_once( ABSPATH . 'wp-admin/includes/plugin.php' );
-// Only run our plugin if qTranslate is active
-if( is_plugin_active( 'qtranslate/qtranslate.php') || ( is_multisite() && is_plugin_active_for_network( 'qtranslate/qtranslate.php') ) ) {
+// Only run our plugin if mqTranslate is active
+if( is_plugin_active( 'mqtranslate/mqtranslate.php') || ( is_multisite() && is_plugin_active_for_network( 'mqtranslate/mqtranslate.php') ) ) {
 	global $qTranslate_Separate_Comments;
 	$qTranslate_Separate_Comments = new qTranslate_Separate_Comments();
 }
