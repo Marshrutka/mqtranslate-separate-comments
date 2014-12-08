@@ -4,7 +4,7 @@ Contributors: Zhenya, Marshrutka
 Tags: mqTranslate, separate comments, comment languages
 Requires at least: 3.9
 Tested up to: 4.1-beta2-30771
-Stable tag: 1.2.2
+Stable tag: 1.2.3
 License: GPLv2 or later
 
 Automatically separate the user comments by the language they viewed the article in.
@@ -52,8 +52,11 @@ In order to properly identify where the comment is coming from, this plugin adds
 
 == Changelog ==
 
+= 1.2.3 =
+Changed the tested up to version 4.1-beta2-30771
+
 = 1.2.2 =
-Tested with WordPress 3.9 and everything works fine. Note that the current version of mqTranslate(2.5.39) however breaks my test site with a fatal error.
+Tested with WordPress 3.9 and everything works fine. Note that the current version of qTranslate (2.5.39) however breaks my test site with a fatal error.
 
 = 1.2.1 =
 Changed the tested up to version to 3.5.1. Changed stable tag from trunk to tag number. 
