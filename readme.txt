@@ -1,4 +1,4 @@
-=== qTranslate Separate Comments ===
+=== mqTranslate Separate Comments ===
 Donate Link: http://senzafissadimora.org/
 Contributors: Zhenya, Marshrutka
 Tags: mqTranslate, separate comments, comment languages
