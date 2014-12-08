@@ -11,7 +11,7 @@ Automatically separate the user comments by the language they viewed the article
 
 == Description ==
 
-This plugin separates the user comments by the language they viewed the article in - this way you avoid duplicate content(which is frowned-upon from search engines) and comments in other languages than the one the current visitor is using(which is generally bad user experience). 
+This plugin separates the user comments by the language they viewed the article in - this way you avoid duplicate content (which is frowned-upon from search engines) and comments in other languages than the one the current visitor is using (which is generally bad user experience). 
 
 You can manually change the language of each comment(and you will have to set it in the begining).
 
@@ -21,11 +21,11 @@ The plugin is using comment-meta to specify the language for each comment, so no
 
 It also should work out-of-the-box for all themes that use the comments_template() function to render their comments. 
 
-The plugin also fixes an issue of mqTranslate. The issue consists in the fact that whenever a user posts a comment(while viewing a post in a language different than the default one), he is redirected back to the post but in the default language and not the language he was reading the post before posting the comment.
+The plugin also fixes an issue of mqTranslate. The issue consists in the fact that whenever a user posts a comment (while viewing a post in a language different than the default one), he is redirected back to the post but in the default language and not the language he was reading the post before posting the comment.
 
 == Installation ==
 
-1. Download the plugin from [here](http://wordpress.org/extend/plugins/mqtranslate-separate-comments/ "mqTranslate Separate Comments").
+1. Download the plugin from [here] (http://wordpress.org/extend/plugins/mqtranslate-separate-comments/ "mqTranslate Separate Comments").
 1. Extract all the files. 
 1. Upload everything (keeping the directory structure) to the `/wp-content/plugins/` directory.
 1. There should be a `/wp-content/plugins/mqtranslate-separate-comments` directory now with `mqtranslate-separate-comments.php` in it.
