@@ -7,13 +7,15 @@ Tested up to: 4.1-beta2-30771
 Stable tag: 1.2.3
 License: GPLv2 or later
 
+Based on qTranslate separate comments, to support mqTranslate this plugin automatically separate user comments by the language
+
 Automatically separate the user comments by the language they viewed the article in.
 
 == Description ==
 
 This plugin separates the user comments by the language they viewed the article in - this way you avoid duplicate content (which is frowned-upon from search engines) and comments in other languages than the one the current visitor is using (which is generally bad user experience). 
 
-You can manually change the language of each comment(and you will have to set it in the begining).
+You can manually change the language of each comment (and you will have to set it in the begining).
 
 Bulk-editing of the comments language is also available.
 
