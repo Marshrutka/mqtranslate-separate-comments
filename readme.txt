@@ -7,9 +7,7 @@ Tested up to: 4.1-beta2-30771
 Stable tag: 1.2.3
 License: GPLv2 or later
 
-Based on qTranslate separate comments, to support mqTranslate this plugin automatically separate user comments by the language
-
-Automatically separate the user comments by the language they viewed the article in.
+Automatically separate the user comments by the language they viewed in the article.
 
 == Description ==
 
@@ -51,6 +49,10 @@ In order to properly identify where the comment is coming from, this plugin adds
 	1. This is the dropdown with available languages and the "Bulk Set Language" button.
 	1. This is the confirmation message that appears after a successfull modification of the language.
 	1. This is the notification message when a comment's language has either not been set-up or that language is currently disabled.
+
+== Upgrade Notice ==
+
+Based on qTranslate separate comments, to support mqTranslate this plugin automatically separate user comments by the language
 
 == Changelog ==
 
