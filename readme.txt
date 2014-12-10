@@ -7,9 +7,11 @@ Tested up to: 4.1-beta2-30771
 Stable tag: 1.2.3
 License: GPLv2 or later
 
-Automatically separate the user comments by the language they viewed in the article.
+Automatically separates the user comments by the language they viewed in the article.
 
 == Description ==
+
+mqTranslate separate comments is a fork of the qTranslate separate comments plugin, extending the original software with collaborative and team-oriented features.
 
 This plugin separates the user comments by the language they viewed the article in - this way you avoid duplicate content (which is frowned-upon from search engines) and comments in other languages than the one the current visitor is using (which is generally bad user experience). 
 
@@ -52,7 +54,9 @@ In order to properly identify where the comment is coming from, this plugin adds
 
 == Upgrade Notice ==
 
-Based on qTranslate separate comments, to support mqTranslate this plugin automatically separate user comments by the language
+This plugin (Based on qTranslate separate comments) support mqTranslate, automatically separate user comments by the language.
+
+When a new release is out you can upgrade mqTranslate Separate Comments through the 'Plugins' menu in WordPress.
 
 == Changelog ==
 
