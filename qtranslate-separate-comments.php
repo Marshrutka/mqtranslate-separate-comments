@@ -2,11 +2,11 @@
 /*
 Plugin Name: mqTranslate Separate Comments
 Description: This plugin separates the user comments by the language they viewed the article in - this way you avoid duplicate content and comments in other languages than the one the current visitor is using. You can manually change the language of each comment (and you will have to set it in the begining).
-Version: 1.2.3
-Author: Zhenya
+Version: 1.2.4
+Author: zhenya
 Author URI: http://senzafissadimora.org/
 License: GPLv2 or later
-Tags: mqTranslate, separate comments, comment languages
+Tags: mqTranslate, Separate comments, Comment languages
 */
 /*
 	Original qTranslate separate comments source code
