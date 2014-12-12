@@ -1,6 +1,6 @@
 === mqTranslate Separate Comments === 
-Donate Link: http://senzafissadimora.org/ 
 Contributors: zhenya 
+Donate Link: http://senzafissadimora.org/ 
 Tags: mqTranslate, Separate comments, Comment languages 
 Requires at least: 3.9 
 Tested up to: 4.1-beta2-30771 
@@ -12,16 +12,21 @@ Automatically separates the user comments by the language they viewed in the art
 == Description == 
 
 mqTranslate Separate Comments is a fork of the qTranslate separate comments plugin, extending the original software with collaborative and team-oriented features. 
+
 This plugin separates the user comments by the language they viewed the article, in this way you avoid duplicate content (which is frowned-upon from search engines) and comments in other languages than the one the current visitor is using (which is generally bad user experience). 
+
 You can manually change the language of each comment (and you will have to set it in the begining). 
 Bulk-editing of the comments language is also available. 
+
 The plugin is using comment-meta to specify the language for each comment, so nothing will break if the plugin is deactivated. 
+
 It also should work out-of-the-box for all themes that use the `comments_template()` function to render their comments. 
+
 The plugin also fixes an issue of mqTranslate. The issue consists in the fact that whenever a user posts a comment (while viewing a post in a language different than the default one), he is redirected back to the post but in the default language and not the language he was reading the post before posting the comment. 
 
 == Installation ==
 
-1. Download the plugin from [here] (http://wordpress.org/extend/plugins/mqtranslate-separate-comments/ "mqTranslate Separate Comments"). 
+1. Download the plugin from [WordPress](http://wordpress.org/extend/plugins/mqtranslate-separate-comments/ "mqTranslate Separate Comments"). 
 1. Extract all the files. 
 1. Upload everything (keeping the directory structure) to the `/wp-content/plugins/` directory. 
 1. There should be a `/wp-content/plugins/mqtranslate-separate-comments` directory now with `mqtranslate-separate-comments.php` in it. 
@@ -45,11 +50,6 @@ In order to properly identify where the comment is coming from, this plugin adds
   1. This is the dropdown with available languages and the "Bulk Set Language" button. 
   1. This is the confirmation message that appears after a successfull modification of the language. 
   1. This is the notification message when a comment's language has either not been set-up or that language is currently disabled.
-
-== Upgrade Notice == 
-
-This plugin (Based on qTranslate separate comments) support mqTranslate, automatically separate user comments by the language. 
-When a new release is out you can upgrade mqTranslate Separate Comments through the 'Plugins' menu in WordPress. 
 
 == Changelog ==
 
