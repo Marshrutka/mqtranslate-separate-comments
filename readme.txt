@@ -54,7 +54,7 @@ When a new release is out you can upgrade mqTranslate Separate Comments through 
 == Changelog ==
 
 = 1.2.4 = 
-Changed the readme.txt file to male it work in the WordPress plugin page. 
+Changed the readme.txt file to make it work in the WordPress plugin page. 
 
 = 1.2.3 = 
 Changed the tested up to version 4.1-beta2-30771 
